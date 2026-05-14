@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Click Game</title>
+  <title>NSTEM Hub</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>🔥 Click Speed Game</h1>
 
-    <p>Click the button as fast as you can in 10 seconds!</p>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="leadership.html">Leadership</a>
+  <a href="events.html">Events</a>
+  <a href="contact.html">Contact</a>
+</div>
 
-    <h2 id="score">Score: 0</h2>
-    <h3 id="time">Time: 10</h3>
+<div class="hero fade">
+  <h1>NSTEM @ Seven Lakes</h1>
+  <p>National STEM Honor Society Chapter — building innovation, leadership, and academic excellence.</p>
+  <button class="btn" onclick="scrollDown()">Explore</button>
+</div>
 
-    <button id="btn" onclick="clickMe()">CLICK ME</button>
-    <button id="start" onclick="startGame()">Start Game</button>
+<div class="card fade">
+  <h2>Our Mission</h2>
+  <p>
+    We empower students through STEM leadership, academic excellence, and real-world innovation projects.
+  </p>
+</div>
+
+<div class="card fade">
+  <h2>What We Do</h2>
+  <div class="grid">
+    <div class="card">🔬 STEM Projects</div>
+    <div class="card">🏆 Competitions</div>
+    <div class="card">🎤 Leadership</div>
+    <div class="card">🤝 Community Impact</div>
   </div>
+</div>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
