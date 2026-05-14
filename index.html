@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Test Site</title>
+  <title>Click Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello Netlify 👋</h1>
-  <p>If you can see this, your site is live!</p>
-  <button onclick="sayHi()">Click me</button>
+  <div class="container">
+    <h1>🔥 Click Speed Game</h1>
+
+    <p>Click the button as fast as you can in 10 seconds!</p>
+
+    <h2 id="score">Score: 0</h2>
+    <h3 id="time">Time: 10</h3>
+
+    <button id="btn" onclick="clickMe()">CLICK ME</button>
+    <button id="start" onclick="startGame()">Start Game</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
